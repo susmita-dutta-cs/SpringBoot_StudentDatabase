@@ -15,13 +15,13 @@ public class StudentConfig {
         return args -> {
             Student billy = new Student(
                     1L,
-                "Billy", "GMAIL.COM", LocalDate.of(1991,06,27),29
+                "Billy", "GMAIL.COM", LocalDate.of(1991,06,27)
 //
             );
 
             Student marium = new Student(
                     1L,
-                    "marium", "GMAIL.COM", LocalDate.of(1991,06,27),29
+                    "marium", "GMAIL.COM", LocalDate.of(1991,06,27)
 //
             );
             repository.saveAll(
